@@ -1,0 +1,113 @@
+.orderbook-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9fafb;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.orderbook-header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.orderbook-header h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.orderbook-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.side-container {
+    margin-bottom: 20px;
+}
+
+.bid-header, .ask-header {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.bid-header {
+    color: #059669;
+}
+
+.ask-header {
+    color: #dc2626;
+}
+
+.book-table {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.table-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    border-bottom: 1px solid #e5e7eb;
+    font-weight: 600;
+}
+
+.table-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+}
+
+.bid-row:hover {
+    background-color: rgba(5, 150, 105, 0.1);
+}
+
+.ask-row:hover {
+    background-color: rgba(220, 38, 38, 0.1);
+}
+
+.bid-price {
+    color: #059669;
+}
+
+.ask-price {
+    color: #dc2626;
+}
+
+.stats-container {
+    grid-column: span 2;
+    margin-top: 20px;
+}
+
+.stats-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.stats-box h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.stat-item {
+    padding: 10px;
+}
+
+.stat-label {
+    font-size: 14px;
+    color: #6b7280;
+}
